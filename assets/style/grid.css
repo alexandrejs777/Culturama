@@ -12,6 +12,16 @@
     grid-row: 2/4;
 }
 
+.eventos__item {
+    display: grid;
+    grid-template-areas: 
+        "imagem imagem"
+        "nome nome"
+        "data data"
+        "local botao"
+    ;
+}
+
 @media screen and (min-width: 720px) {
 
     .banner {
