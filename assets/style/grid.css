@@ -14,6 +14,8 @@
 
 .eventos__item {
     display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
     grid-template-areas: 
         "imagem imagem"
         "nome nome"
@@ -40,10 +42,6 @@
 
 .eventos__item button {
     grid-area: botao;
-}
-
-.eventos__item  {
-    grid-area: ;
 }
 
 @media screen and (min-width: 720px) {
