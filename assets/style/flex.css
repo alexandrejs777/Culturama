@@ -43,6 +43,21 @@
     max-width: 400px;
 }
 
+/* Agenda */
+
+.agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.agenda__item {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
 @media screen and (min-width: 720px) {
 
     /* Cabeçalho */
@@ -59,7 +74,15 @@
         row-gap: 1rem;
     }
 
+    /* Eventos */
+
     .eventos__lista {
+        justify-content: end;
+    }
+
+    /* Agenda */
+
+    .agenda__lista {
         justify-content: end;
     }
 }
