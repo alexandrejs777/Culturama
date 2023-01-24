@@ -1,3 +1,5 @@
+/* Cabeçalho */
+
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -6,6 +8,8 @@
     column-gap: 3px;
 }
 
+/* Categorias */
+
 .categorias__lista {
     display: flex;
     flex-direction: column;
@@ -13,8 +17,19 @@
 }
 
 @media screen and (min-width: 720px) {
+
+    /* Cabeçalho */
+
     .menu {
         column-gap: 75px;
+    }
+
+    /* Categorias */
+
+    .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
     }
 }
 
